@@ -4,14 +4,7 @@ import { getAuth, signInWithEmailAndPassword, createUserWithEmailAndPassword } f
 import { getDatabase, ref, push, set, orderByChild, equalTo, get, query, update, onValue } from "https://www.gstatic.com/firebasejs/10.5.0/firebase-database.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCZItBsxkIt9KdQew1ocn2Y7UjY0eeh_uU",
-  authDomain: "nsproj-da609.firebaseapp.com",
-  databaseURL: "https://nsproj-da609-default-rtdb.firebaseio.com",
-  projectId: "nsproj-da609",
-  storageBucket: "nsproj-da609.appspot.com",
-  messagingSenderId: "273729925887",
-  appId: "1:273729925887:web:fa53f9af1a0f54229212ca",
-  measurementId: "G-44N23C234T"
+
 };
 
 
