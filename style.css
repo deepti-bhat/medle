@@ -1,0 +1,103 @@
+body {
+    overflow-x: hidden !important;
+}
+#mainNav {
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.75%;
+    border-color: black;
+}
+#mainNav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+}
+#mainNav img {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+
+#doc {
+    background-color: black;
+    width: 50%;
+    height: 100vh;
+    color: white;
+    border-radius: 0%;
+    text-align: center;
+    padding-top: 12.5%;
+}
+#patient {
+    background-color: white;
+    width: 50%;
+    height: 100vh;
+    color: balck;
+    border-radius: 0%;
+    text-align: center;
+    padding-top: 12.5%;
+}
+
+#docButton {
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#patientButton {
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+#doc h2, #patient h2{
+    margin-bottom: 3%;
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    #mainNav {
+        padding-top: 7%;
+    }
+    #mainNav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10% !important;
+        font-size: 1.2rem;
+    }
+    #mainNav img {
+        height: 4rem;
+        width: 4rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 1%;
+    }
+    #doc, #patient {
+        padding-top: 15em;
+        font-size: 0.6em;
+    }
+    #patient h2{
+        margin-top: 0.5em;
+    }
+    #doc h2{
+        margin-top: 1em;
+    }
+}

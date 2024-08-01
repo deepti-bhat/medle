@@ -1,0 +1,211 @@
+body {
+    overflow-x: hidden !important;
+    background-color: black;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: black !important;
+}
+#mainNav {
+    background-color: white;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.75%;
+    border-color: white;
+}
+#mainNav a {
+    text-decoration: none;
+    color: black;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+}
+#logo {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+#dash-container {
+    background-color: black;
+    color: white;
+    height: 100%;
+    padding: 2%;
+}
+#dash-container h2{
+    /* margin: 2%; */
+    font-family: "Playwrite SK", cursive;
+}
+
+/*Cards*/
+#cardDisplay{
+    border-radius: 10px;
+    height: 32rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 2%;
+    color: black;
+    height: 100%;
+}
+#visitCards {
+    display: flex;
+    width: 120%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.visit {
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 4px 1px #1d2e28;
+    border-radius: 7px;
+    width: 40%;
+    height: 10rem;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 3%;
+    margin-left: 1em;
+    padding: 1em;
+    border-top: 3px dashed gray;
+}
+.visit:hover {
+    cursor: pointer;
+}
+li {
+    list-style: none;
+}
+.time {
+    margin: 0px;
+    color: #ca6634;
+    margin-right: 5px;
+    margin-left: -2%;
+    padding-top: 0.5em;
+    text-align: center;
+}
+.date {
+    font-size: 3em;
+    margin-top: -0.3em;
+}
+.month {
+    font-size: 1.2em;
+}
+.content {
+    margin-left: 3%;
+}
+.doctorName {
+    position: relative;
+    margin-top: -4.5em;
+}
+.doctorName {
+    color: #1d2e28;
+    font-weight: 600;
+    float: top;
+    font-size: 1.7em;
+}
+.hospitalName {
+    color: teal;
+    font-weight: 400;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+#image{
+    margin-top: 20px;
+}
+#scanner {
+    float: right;
+    height: 4rem;
+    width: 5rem;
+    margin-top: -1%;
+    margin-right: 1%;
+}
+#logout:hover {
+    cursor: pointer;
+}
+#addReport {
+    background-color: #ca6634;
+    border: none;
+    box-shadow: 0px 0px 5px 2px rgb(227, 226, 223);
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    #visitCards {
+        display: flex;
+        width: 80%;
+        margin-left:5%;
+        margin-right: 10%;
+    }
+    .visit {
+        background-color: white;
+        border: 1px solid black;
+        box-shadow: 0px 0px 4px 1px #1d2e28;
+        border-radius: 7px;
+        width: 70em !important;
+        height: 10rem;
+        margin-right: 1em;
+        margin-top: 2em !important;
+        margin-bottom: 3%;
+        margin-left: 1em;
+        padding: 1em;
+        border-top: 3px dashed gray;
+    }
+    .time {
+        margin: 0px;
+        color: #ca6634;
+        margin-right: 5px;
+        margin-left: -13em;
+        padding-top: 1.3em;
+        text-align: center;
+    }
+    .date {
+        font-size: 2em;
+        margin-top: 0em;
+    }
+    .month {
+        font-size: 1.0em;
+    }
+    .content {
+        margin-left: 15%;
+        margin-top: 3em;
+    }
+    #mainNav {
+        padding-top: 7%;
+    }
+    #mainNav a {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10% !important;
+        font-size: 1.2rem;
+    }
+    #logo {
+        height: 4rem;
+        width: 4rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 1%;
+    }
+    #scanner {
+        float: right;
+        height: 4rem;
+        width: 5rem;
+        margin-top: -4%;
+        margin-right: 1%;
+    }
+    #dash-container h2{
+        margin: 2%;
+    }
+    #addReport {
+        background-color: #ca6634;
+        border: none;
+        box-shadow: 0px 0px 5px 2px rgb(227, 226, 223);
+        color: white;
+        font-weight: bold;
+        margin-top: 5% !important;
+        margin-left: 4% !important;
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,187 @@
+body {
+    overflow-x: hidden !important;
+}
+#mainNav {
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.75%;
+    border-color: black;
+}
+#mainNav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+}
+#mainNav img {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+
+
+#doctor, #doctor-register {
+    background-color: white;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 1%;
+    height: 85vh;
+    color: black;
+    border-radius: 0%;
+    text-align: center;
+    padding-top: 2%;
+}
+#doctor-register {
+    display: none;
+}
+#doctorButton {
+    box-shadow: 0px 0px 2px 3px rgb(129, 174, 174);
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+#doctor h2, #doctor-register h2{
+    color: teal;
+    text-align: left;
+    font-family: "Playwrite SK", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+#scrollable {
+    max-height: 15em;
+    overflow-y: auto;
+    margin-bottom: 3%;
+}
+#submit{
+    box-shadow: 0px 0px 2px 3px rgb(129, 174, 174);
+    background-color: black;
+    color: white;
+    width: 50%;
+    height: 3rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+form {
+    text-align: left;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+}
+form input, label {
+    margin-bottom: 2%;
+}
+.signature {
+    margin-left: 60%;
+    margin-top: 3em;
+}
+
+.input-box {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 90%;
+    box-sizing: border-box; /* Ensures padding is included in width */
+}
+
+#signinButton {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 5px 2px gray;
+    color: balck;
+    width: 50%;
+    height: 2.8rem;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    padding-top: 2%;
+}
+#sub {
+    text-align: center;
+    margin-top: 2%;
+    font-size: 1.1rem;
+}
+/* Target WebKit-based browsers (like Chrome, Safari, Opera) */
+::-webkit-scrollbar {
+    width: 6px; /* Set width of the scrollbar */
+    height: 6px; /* Set height of the scrollbar */
+}
+
+/* Track (the area the scrollbar slides over) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Color of the track */
+}
+
+/* Handle (the draggable part of the scrollbar) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* Color of the handle */
+    border-radius: 3px; /* Roundness of the handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Color of the handle when hovered */
+}
+@media only screen and (max-width: 1200px) {
+    body {
+        overflow-x: hidden;
+    }
+    #mainNav {
+        width: 100%;
+    }
+    #doctor, #doctor-register {
+        background-color: white;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 4%;
+        height: 80vh;
+        color: black;
+        border-radius: 0%;
+        text-align: center;
+        padding-top: 2%;
+    }
+    #doctorButton, #submit {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    #mainNav {
+        padding-top: 7%;
+    }
+    #mainNav a {
+        text-decoration: none;
+        color: white;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10% !important;
+        font-size: 1.2rem;
+    }
+    #mainNav img {
+        height: 4rem;
+        width: 4rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 1%;
+    }
+    .signature {
+        width: 6rem;
+        height: 5rem;
+        margin-top: 5em;
+        justify-content: end;
+    }
+    
+}

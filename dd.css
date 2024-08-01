@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden !important;
+}
+#mainNav {
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.75%;
+    border-color: black;
+}
+#mainNav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+}
+#logo {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+#dash-container {
+    background-color: white;
+    color: black;
+    height: 100vh;
+    padding: 2%;
+}
+#welcome-message, #third-text, #request-message{
+    /* margin: 2%; */
+    font-family: "Playwrite SK", cursive;
+}
+#request-message {
+    text-align: center;
+    margin-top: 7%;
+}
+#connection-request {
+    text-align: center;
+    color: maroon;
+    margin-top: 2%;
+}
+#request-container {
+    text-align: center;
+    display: none;
+}
+#yes, #no {
+    border: none;
+    box-shadow: 0px 0px 5px 2px gray;
+    margin: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    color: white;
+}
+#yes{
+    background-color: rgb(13, 73, 13);
+}
+#no {
+    background-color: rgb(93, 14, 14);
+}
+#second-text, #third-text {
+    text-align: center;
+    margin-bottom: 1%;
+}
+#logout:hover {
+    cursor: pointer;
+}
+#fourth-text {
+    color: maroon;
+    text-align: center;
+    margin-top: 2%;
+}
+#endButton {
+    background-color: maroon;
+    color: white;
+    font-weight: bold;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 1%;
+}
+@media only screen and (max-width: 1200px) {
+    #welcome-message, #third-text, #request-message{
+        margin: 2%;
+    }
+    #second-text {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #endButton {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 1%;
+    }
+    #mainNav {
+        padding-top: 7%;
+    }
+    #mainNav a {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10% !important;
+        font-size: 1.2rem;
+    }
+    #mainNav img {
+        height: 4rem;
+        width: 4rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 1%;
+    }
+    #request-message {
+        margin-top: 10%;
+    }
+    #connection-request {
+        text-align: center;
+        color: maroon;
+        margin-top: 5%;
+    }
+    #yes, #no {
+        margin: 5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-weight: bold;
+        color: white;
+        width: 5em;
+    }
+}

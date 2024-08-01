@@ -1,0 +1,80 @@
+body {
+    overflow-x: hidden !important;
+}
+#mainNav {
+    background-color: black;
+    height: 5rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.75%;
+    border-color: black;
+}
+#docName {
+    font-family: "Playwrite SK", cursive;
+    margin-top: 2%;
+}
+#mainNav a {
+    text-decoration: none;
+    color: white;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 1.5em;
+    font-size: 1.2rem;
+}
+#mainNav img {
+    height: 4rem;
+    width: 4rem;
+    float: left;
+    margin-top: -1%;
+    margin-left: 1%;
+}
+label, input {
+    margin-bottom: 4px;
+    margin-top: 2px;
+}
+#doctorName {
+    font-family: "Playwrite SK", cursive;
+    font-size: 2.5em;
+    margin-top: 0.3em;
+}
+#date1 {
+    margin-top: 0.4em;
+    margin-bottom: 0.1em;
+    margin-right: 0.4em;
+}
+#date1, #month, #time1 {
+    font-size: 1.7rem;
+}
+#date {
+    margin-top: 0.7em;
+    margin-bottom: 0.1em;
+    margin-right: 0.4em;
+}
+#date, #month{
+    font-size: 1.8rem;
+}
+#form-submit {
+    background-color: teal;
+    color: white;
+    font-weight: bold;
+    margin-top: 0.7em;
+}
+
+@media only screen and (max-width: 1200px) {
+    #mainNav {
+        padding-top: 7%;
+    }
+    #mainNav a {
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 10% !important;
+        font-size: 1.2rem;
+    }
+    #mainNav img {
+        height: 4rem;
+        width: 4rem;
+        float: left;
+        margin-top: -5%;
+        margin-left: 1%;
+    }
+}
